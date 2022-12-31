@@ -3,7 +3,7 @@ install:
 	go mod tidy
 
 # Build the Go program
-main: main.go
+build: main.go
     go build -o main main.go
 
 # Run the Go program
